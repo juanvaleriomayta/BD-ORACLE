@@ -1,0 +1,221 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="Ejercicio1_Domains">
+   <domains>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_150" id="1A08B8A4-0B39-EB5F-9E8F-B2C0BC95F65E">
+         <createdBy>LC</createdBy>
+         <createdTime>2018-12-02 15:49:28 UTC</createdTime>
+         <ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>150</dataTypeSize>
+         <fileName>Ejercicio1_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_9" id="2267C53A-FE80-2275-1CEE-51A2C549107D">
+         <createdBy>LC</createdBy>
+         <createdTime>2018-12-02 15:49:28 UTC</createdTime>
+         <ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>9</dataTypeSize>
+         <fileName>Ejercicio1_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="CHAR_0_0_1" id="2C401679-2794-F23F-B2A2-F3A313C5BC12">
+         <createdBy>LC</createdBy>
+         <createdTime>2018-12-02 15:49:28 UTC</createdTime>
+         <ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>1</dataTypeSize>
+         <fileName>Ejercicio1_Domains</fileName>
+         <logicalDatatype>LOGDT025</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_150 BYTE" id="30BA1FA8-EF82-A13C-DAD6-09B33B4712D1">
+         <createdBy>LC</createdBy>
+         <createdTime>2018-12-02 15:49:28 UTC</createdTime>
+         <ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>150 BYTE</dataTypeSize>
+         <fileName>Ejercicio1_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="CHAR_0_0_1 BYTE" id="42BFDEA0-F4B2-32B0-8770-E631AED56504">
+         <createdBy>LC</createdBy>
+         <createdTime>2018-12-02 15:49:28 UTC</createdTime>
+         <ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>1 BYTE</dataTypeSize>
+         <fileName>Ejercicio1_Domains</fileName>
+         <logicalDatatype>LOGDT025</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="NUMERIC_9_2_0" id="4C2622C4-7CAC-1FDB-B5CF-AF41FDB919E4">
+         <createdBy>LC</createdBy>
+         <createdTime>2018-12-02 15:49:28 UTC</createdTime>
+         <ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>9</dataTypePrecision>
+         <dataTypeScale>2</dataTypeScale>
+         <dataTypeSize>0</dataTypeSize>
+         <fileName>Ejercicio1_Domains</fileName>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_0" id="4E4A779D-01D4-4D82-FAA0-5FC6453105E2">
+         <createdBy>LC</createdBy>
+         <createdTime>2018-12-02 15:49:28 UTC</createdTime>
+         <ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <fileName>Ejercicio1_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="CHAR_0_0_8" id="4FDC2766-E9E5-64DA-B611-A8D4069E7116">
+         <createdBy>LC</createdBy>
+         <createdTime>2018-12-02 15:49:28 UTC</createdTime>
+         <ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>8</dataTypeSize>
+         <fileName>Ejercicio1_Domains</fileName>
+         <logicalDatatype>LOGDT025</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="CHAR_0_0_4 BYTE" id="558ABA79-5717-F3C3-225A-FBE84DACE096">
+         <createdBy>LC</createdBy>
+         <createdTime>2018-12-02 15:49:28 UTC</createdTime>
+         <ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>4 BYTE</dataTypeSize>
+         <fileName>Ejercicio1_Domains</fileName>
+         <logicalDatatype>LOGDT025</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_100" id="74FA037F-10A0-D35B-7C48-30AAC847D6B5">
+         <createdBy>LC</createdBy>
+         <createdTime>2018-12-02 15:49:28 UTC</createdTime>
+         <ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>100</dataTypeSize>
+         <fileName>Ejercicio1_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="Date_0_0_0" id="7FB9915E-07C5-C037-918D-D07B82C2331C">
+         <createdBy>LC</createdBy>
+         <createdTime>2018-12-02 15:49:28 UTC</createdTime>
+         <ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <fileName>Ejercicio1_Domains</fileName>
+         <logicalDatatype>LOGDT007</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_100 BYTE" id="9B6DCE02-930C-2659-9634-061FD70C2BC0">
+         <createdBy>LC</createdBy>
+         <createdTime>2018-12-02 15:49:28 UTC</createdTime>
+         <ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>100 BYTE</dataTypeSize>
+         <fileName>Ejercicio1_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_50" id="B7B53774-4D29-F80D-B36E-8CEC96BC6F3B">
+         <createdBy>LC</createdBy>
+         <createdTime>2018-12-02 15:49:28 UTC</createdTime>
+         <ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>50</dataTypeSize>
+         <fileName>Ejercicio1_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="CHAR_0_0_6" id="BA55F073-D186-C99E-4309-6F5693D56416">
+         <createdBy>LC</createdBy>
+         <createdTime>2018-12-02 15:49:28 UTC</createdTime>
+         <ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>6</dataTypeSize>
+         <fileName>Ejercicio1_Domains</fileName>
+         <logicalDatatype>LOGDT025</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="CHAR_0_0_3 BYTE" id="C2432082-EA55-9B96-D20B-D88772FF51F8">
+         <createdBy>LC</createdBy>
+         <createdTime>2018-12-02 15:49:28 UTC</createdTime>
+         <ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>3 BYTE</dataTypeSize>
+         <fileName>Ejercicio1_Domains</fileName>
+         <logicalDatatype>LOGDT025</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="BLOB_0_0_0" id="C9D92430-60BC-C7D3-62A6-F006D6FB5CA0">
+         <createdBy>LC</createdBy>
+         <createdTime>2018-12-02 15:49:28 UTC</createdTime>
+         <ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <fileName>Ejercicio1_Domains</fileName>
+         <logicalDatatype>LOGDT029</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="Integer_0_0_0" id="CE39BFDE-89AA-3E34-08F8-0E5B4311A290">
+         <createdBy>LC</createdBy>
+         <createdTime>2018-12-02 15:49:28 UTC</createdTime>
+         <ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <fileName>Ejercicio1_Domains</fileName>
+         <logicalDatatype>LOGDT011</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_80" id="D3E4F756-2762-14E0-2F84-FBC5938B8648">
+         <createdBy>LC</createdBy>
+         <createdTime>2018-12-02 15:49:28 UTC</createdTime>
+         <ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>80</dataTypeSize>
+         <fileName>Ejercicio1_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="CHAR_0_0_10 BYTE" id="D9C3C339-27DB-6415-7FAA-0138E4D1C43A">
+         <createdBy>LC</createdBy>
+         <createdTime>2018-12-02 15:49:28 UTC</createdTime>
+         <ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>10 BYTE</dataTypeSize>
+         <fileName>Ejercicio1_Domains</fileName>
+         <logicalDatatype>LOGDT025</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="CHAR_0_0_8 BYTE" id="DC36ACC5-D890-195F-11A7-B16DCFF2BE92">
+         <createdBy>LC</createdBy>
+         <createdTime>2018-12-02 15:49:28 UTC</createdTime>
+         <ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>8 BYTE</dataTypeSize>
+         <fileName>Ejercicio1_Domains</fileName>
+         <logicalDatatype>LOGDT025</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="NUMERIC_0_0_0" id="EACFD148-4831-C568-4566-AA5CB781C32B">
+         <createdBy>LC</createdBy>
+         <createdTime>2018-12-02 15:49:28 UTC</createdTime>
+         <ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <fileName>Ejercicio1_Domains</fileName>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+      </Domain>
+   </domains>
+</DomainFile>

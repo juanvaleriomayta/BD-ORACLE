@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9A349338-D222-9742-1C5B-0842FFAAEBE0" containerWithKeyObject="DDB178A7-DDF3-EFA4-3A3C-15B33F1EB7B7" localFKIndex="A60AE0BE-E580-DF41-E159-BBD7320039B9" name="PROYECTO_DEPARTAMENTO_FK">
+<sourceDDLFile>TECNOFAST.ddl</sourceDDLFile>
+<createdBy>LC</createdBy>
+<createdTime>2018-12-02 15:49:28 UTC</createdTime>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+<importedID>DE3E4F73-92E2-8F99-166A-39452D35186B</importedID>
+<referredTableLongName>DEPARTAMENTO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>AB2803F2-1254-B4AF-4F0D-3950599F2896</referredTableID>
+<keyObject>763E2412-BEBB-AE86-5B54-682BA2E0CDB0</keyObject>
+<referredKeyID>763E2412-BEBB-AE86-5B54-682BA2E0CDB0</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODDEP</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

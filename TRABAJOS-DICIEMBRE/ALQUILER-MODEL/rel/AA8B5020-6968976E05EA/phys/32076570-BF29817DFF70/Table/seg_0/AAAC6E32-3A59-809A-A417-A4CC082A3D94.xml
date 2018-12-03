@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="alquiler" directorySegmentName="seg_0" id="AAAC6E32-3A59-809A-A417-A4CC082A3D94">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-02 15:49:27 UTC</createdTime>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="persona_codper" id="3088C2F2-9D18-4B35-7AAE-CC9E0F540A16">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-02 15:49:28 UTC</createdTime>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="persona_codubi1" id="4060A768-D340-0747-5BCD-E8D7C3558243">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-02 15:49:28 UTC</createdTime>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="persona_codubi" id="428C19D9-202E-F37C-8464-3EBACF851EB5">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-02 15:49:28 UTC</createdTime>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="persona_passwper1" id="73650E6D-07E2-774B-DF05-4C29A797863B">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-02 15:49:28 UTC</createdTime>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="fecinalq" id="98A85843-E4B7-F05B-A1A5-C530104A04DD">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-02 15:49:28 UTC</createdTime>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="codalq" id="C1D63499-CCF2-15E5-7453-63BA3F292123">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-02 15:49:28 UTC</createdTime>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="persona_passwper" id="E9A56FF1-CA91-A53B-A7AF-4B1F96BA9B68">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-02 15:49:28 UTC</createdTime>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="persona_codper1" id="F9FD2BC4-CE9F-8E51-C894-EC292C4EBE52">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-02 15:49:28 UTC</createdTime>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="alquiler__idx" id="B38B24CC-4B45-A189-E4C3-453259B75DB5">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-02 15:49:28 UTC</createdTime>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+<logging></logging>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="alquiler__idxv1" id="C10267CE-8758-A22E-8BEC-0AC0517F2993">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-02 15:49:28 UTC</createdTime>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+<logging></logging>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="alquiler_persona_fkv2v1" id="140EF788-9AEC-2E35-A786-7058AA15DAE9">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-02 15:49:28 UTC</createdTime>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="alquiler_persona_fkv2" id="94F7287F-779A-5EB1-0E45-AE73F7123F02">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-02 15:49:28 UTC</createdTime>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="alquiler_persona_fk" id="A2A09974-AFAB-37CD-D8E5-476C77735163">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-02 15:49:28 UTC</createdTime>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="alquiler_persona_fkv3" id="FCBE9B1E-245F-D16D-9D3D-3DCF39A67794">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-02 15:49:28 UTC</createdTime>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="alquiler_pk" id="DE255200-12A8-FB86-25EC-508FDDCB66B2">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-02 15:49:28 UTC</createdTime>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

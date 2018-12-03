@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="CARGO" directorySegmentName="seg_0" id="1210F1B0-DF5C-2EE1-5DBA-E0E2D3450779">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-02 15:49:28 UTC</createdTime>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>73BE523E-37B6-071C-99B1-00D12433760D</segment>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="NOMCAR" id="3C29A604-F57B-C737-E3D3-BD2F97BCA9C4">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-02 15:49:28 UTC</createdTime>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODCAR" id="A68E2824-D287-4EB5-349B-DF3411773BC6">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-02 15:49:28 UTC</createdTime>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="CARGO_PK" id="6BC345C6-B1A0-F9FD-8783-D01D66DA1411">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-02 15:49:28 UTC</createdTime>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+<computeStatistics>YES</computeStatistics>
+<logging></logging>
+<segment>0CE6A0C6-E8A4-9592-12B1-515769984F8D</segment>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="CARGO_PK" id="970A014E-9224-15B6-E0EC-14350B0464ED">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-02 15:49:28 UTC</createdTime>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+<computeStatistics>YES</computeStatistics>
+<logging></logging>
+<segment>0ECD65FA-7683-838B-AE8E-4C35B1CC0FF5</segment>
+<indexSegment>0ECD65FA-7683-838B-AE8E-4C35B1CC0FF5</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

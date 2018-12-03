@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EB6282DF-2E86-968E-2FE9-B9733951219E" name="TIPO_VIVIENDA">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 02:06:49 UTC</createdTime>
+<generatorID>BE2F3F88-0832-897B-D821-9EEF11198A7D</generatorID>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+<engineerTo>
+<item key="CC2360A8-1AE2-A2A1-F565-F65DD4FC817B" value="true"/>
+<item key="AA8B5020-EE8C-D5F6-50BF-6968976E05EA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CODTIPVIV" id="9F008908-5AB0-2701-9AF7-87B6DFF2C471">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 02:06:49 UTC</createdTime>
+<commentInRDBMS>CODIGO TIPO VIVIENDA</commentInRDBMS>
+<generatorID>45AC6079-ED94-23F9-5B61-73FBD1D03D32</generatorID>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+<engineerTo>
+<item key="CC2360A8-1AE2-A2A1-F565-F65DD4FC817B" value="true"/>
+<item key="AA8B5020-EE8C-D5F6-50BF-6968976E05EA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DESCTIPVIV" id="64695818-780C-F6BF-3805-11B019E7823D">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 02:06:49 UTC</createdTime>
+<commentInRDBMS>DESCRIPCION VIVIENDA</commentInRDBMS>
+<generatorID>D755A2B5-A92C-BB1B-541E-58802D75040A</generatorID>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+<engineerTo>
+<item key="CC2360A8-1AE2-A2A1-F565-F65DD4FC817B" value="true"/>
+<item key="AA8B5020-EE8C-D5F6-50BF-6968976E05EA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7D5D6174-CDA3-2319-089D-A69FA9AB09B2" name="tipo vivienda pk">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 02:06:49 UTC</createdTime>
+<generatorID>29736B6A-1D43-980A-FAC2-B1479CB00066</generatorID>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+<engineerTo>
+<item key="CC2360A8-1AE2-A2A1-F565-F65DD4FC817B" value="true"/>
+<item key="AA8B5020-EE8C-D5F6-50BF-6968976E05EA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9F008908-5AB0-2701-9AF7-87B6DFF2C471</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

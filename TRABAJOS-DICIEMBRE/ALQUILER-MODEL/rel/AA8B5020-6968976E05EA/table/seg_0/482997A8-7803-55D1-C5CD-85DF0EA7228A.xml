@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="482997A8-7803-55D1-C5CD-85DF0EA7228A" name="DETALLE_DEPARTAMENTO">
+<sourceDDLFile>TECNOFAST.ddl</sourceDDLFile>
+<createdBy>LC</createdBy>
+<createdTime>2018-12-02 15:49:28 UTC</createdTime>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+<importedID>B5422D4A-E191-1D33-AAB5-3A05AC6FB6E3</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODDETDEP" id="60842B11-1459-94EA-D979-E7617E334315">
+<sourceDDLFile>TECNOFAST.ddl</sourceDDLFile>
+<createdBy>LC</createdBy>
+<createdTime>2018-12-02 15:49:28 UTC</createdTime>
+<commentInRDBMS>CODIGO DE DETALLE DEPARTAMENTO</commentInRDBMS>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+<importedID>BB96F89D-CB9A-8E61-7066-A300AF417EDC</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>558ABA79-5717-F3C3-225A-FBE84DACE096</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECINDETDEP" id="C11242EC-EB3C-C23E-347E-773D8799B5C0">
+<sourceDDLFile>TECNOFAST.ddl</sourceDDLFile>
+<createdBy>LC</createdBy>
+<createdTime>2018-12-02 15:49:28 UTC</createdTime>
+<commentInRDBMS>FECHA DE INICIO DE DETALLE DEPARTAMENTO</commentInRDBMS>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+<importedID>F0EFA884-DBCF-159A-FF1A-0C13793A203F</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>7FB9915E-07C5-C037-918D-D07B82C2331C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SALDETDEP" id="FC628A20-0EBC-0351-9D37-10DB02C25EDA">
+<sourceDDLFile>TECNOFAST.ddl</sourceDDLFile>
+<createdBy>LC</createdBy>
+<createdTime>2018-12-02 15:49:28 UTC</createdTime>
+<commentInRDBMS>SALARIO DEL DETALLE DEPARTAMENTO</commentInRDBMS>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+<importedID>1CC56D5E-BA1A-98CA-2459-4CE2FD6314E8</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>4C2622C4-7CAC-1FDB-B5CF-AF41FDB919E4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SEGPER" id="DA85C214-15CB-9929-BE4A-939554BCB377">
+<sourceDDLFile>TECNOFAST.ddl</sourceDDLFile>
+<createdBy>LC</createdBy>
+<createdTime>2018-12-02 15:49:28 UTC</createdTime>
+<commentInRDBMS>SEGURO  DE LA PERSONA</commentInRDBMS>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+<importedID>15DC4670-4F22-F59D-CA5D-3B032FD833E0</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9B6DCE02-930C-2659-9634-061FD70C2BC0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODDEP" id="790B7C10-EF3C-7B9F-312A-4116020F16ED">
+<sourceDDLFile>TECNOFAST.ddl</sourceDDLFile>
+<createdBy>LC</createdBy>
+<createdTime>2018-12-02 15:49:28 UTC</createdTime>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+<importedID>EF11D03C-8B99-7DE4-FB5E-CAD260FB4476</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>C2432082-EA55-9B96-D20B-D88772FF51F8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODCAR" id="ED274CA3-A1FA-AC67-E8E9-B6DB6440CAB4">
+<sourceDDLFile>TECNOFAST.ddl</sourceDDLFile>
+<createdBy>LC</createdBy>
+<createdTime>2018-12-02 15:49:28 UTC</createdTime>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+<importedID>A0C085DA-D27A-9166-1DD0-D115462B740B</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>C2432082-EA55-9B96-D20B-D88772FF51F8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3E4B3FC6-FAD5-AE23-1175-E6FFB1C0653F" referredColumn="A68E2824-D287-4EB5-349B-DF3411773BC6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F7681586-3CE2-5C6F-9A62-ABC94B2A9852" name="DETALLE_DEPARTAMENTO_PK">
+<sourceDDLFile>TECNOFAST.ddl</sourceDDLFile>
+<createdBy>LC</createdBy>
+<createdTime>2018-12-02 15:49:28 UTC</createdTime>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+<importedID>EDDBB3A5-E75C-DE2A-099B-53829880BD95</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="60842B11-1459-94EA-D979-E7617E334315"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CB03F470-0530-2FC9-E6E9-5C34FE1CD3B3" name="DETALLE_DEPARTAMENTO_PK">
+<sourceDDLFile>TECNOFAST.ddl</sourceDDLFile>
+<createdBy>LC</createdBy>
+<createdTime>2018-12-02 15:49:28 UTC</createdTime>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+<importedID>E534DD2E-377D-4B9D-4DEE-588499506A7F</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="60842B11-1459-94EA-D979-E7617E334315"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="788D4FC5-4D14-5FF0-E32F-618817845308" name="DETALLE_DEPARTAMENTO_CARGO_FK">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-02 15:49:28 UTC</createdTime>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ED274CA3-A1FA-AC67-E8E9-B6DB6440CAB4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

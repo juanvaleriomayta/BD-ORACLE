@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1210F1B0-DF5C-2EE1-5DBA-E0E2D3450779" name="CARGO">
+<sourceDDLFile>TECNOFAST.ddl</sourceDDLFile>
+<createdBy>LC</createdBy>
+<createdTime>2018-12-02 15:49:28 UTC</createdTime>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+<importedID>3E8D1547-FEB3-7780-865E-687D9D0E9849</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODCAR" id="A68E2824-D287-4EB5-349B-DF3411773BC6">
+<sourceDDLFile>TECNOFAST.ddl</sourceDDLFile>
+<createdBy>LC</createdBy>
+<createdTime>2018-12-02 15:49:28 UTC</createdTime>
+<commentInRDBMS>CODIGO DE CARGO</commentInRDBMS>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+<importedID>75F781B1-F510-7765-7F42-85891ED9590E</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>C2432082-EA55-9B96-D20B-D88772FF51F8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMCAR" id="3C29A604-F57B-C737-E3D3-BD2F97BCA9C4">
+<sourceDDLFile>TECNOFAST.ddl</sourceDDLFile>
+<createdBy>LC</createdBy>
+<createdTime>2018-12-02 15:49:28 UTC</createdTime>
+<commentInRDBMS>NOMBRE DE CARGO</commentInRDBMS>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+<importedID>814851E5-1CFE-4058-A9F3-3BD125A93B8F</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9B6DCE02-930C-2659-9634-061FD70C2BC0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="970A014E-9224-15B6-E0EC-14350B0464ED" name="CARGO_PK">
+<sourceDDLFile>TECNOFAST.ddl</sourceDDLFile>
+<createdBy>LC</createdBy>
+<createdTime>2018-12-02 15:49:28 UTC</createdTime>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+<importedID>605ABBDC-6F0F-79A9-7B9E-A91D00405262</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A68E2824-D287-4EB5-349B-DF3411773BC6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6BC345C6-B1A0-F9FD-8783-D01D66DA1411" name="CARGO_PK">
+<sourceDDLFile>TECNOFAST.ddl</sourceDDLFile>
+<createdBy>LC</createdBy>
+<createdTime>2018-12-02 15:49:28 UTC</createdTime>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+<importedID>27A50099-EA07-4976-3A8E-CDA4F30B1894</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A68E2824-D287-4EB5-349B-DF3411773BC6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

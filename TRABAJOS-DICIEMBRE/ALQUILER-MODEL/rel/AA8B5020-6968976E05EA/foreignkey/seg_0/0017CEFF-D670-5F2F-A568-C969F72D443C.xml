@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0017CEFF-D670-5F2F-A568-C969F72D443C" containerWithKeyObject="AAAC6E32-3A59-809A-A417-A4CC082A3D94" localFKIndex="94F7287F-779A-5EB1-0E45-AE73F7123F02" name="alquiler_persona_fkv2">
+<sourceDDLFile>TECNOFAST.ddl</sourceDDLFile>
+<createdBy>LC</createdBy>
+<createdTime>2018-12-02 15:49:28 UTC</createdTime>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+<importedID>736318DD-B330-3BAD-1CB3-E9E0C9AADE91</importedID>
+<referredTableLongName>persona</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BBE3DE34-E750-2E19-B079-5EF0B69B10A9</referredTableID>
+<keyObject>4CDABA70-1A97-35AB-A3C9-8CEAD42580D8</keyObject>
+<referredKeyID>4CDABA70-1A97-35AB-A3C9-8CEAD42580D8</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>codper,passwper,ubigeo_codubi</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

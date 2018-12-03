@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_22" directorySegmentName="seg_0" id="A92EF89D-82F1-7E8B-1D3D-C586C06352A2">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 02:43:43 UTC</createdTime>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+<engineerTo>
+<item key="CC2360A8-1AE2-A2A1-F565-F65DD4FC817B" value="true"/>
+<item key="AA8B5020-EE8C-D5F6-50BF-6968976E05EA" value="true"/>
+</engineerTo>
+<sourcePk>FB4597EE-7A21-7149-CABF-3380D5EB8BEF</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>23BE4EF5-15C1-2CF3-5948-74FFBC84AF25</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>604D0F06-165F-BEB5-EADF-BFCE7404D33C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

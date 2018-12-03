@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="detalle_alquiler_alquiler_fk" directorySegmentName="seg_0" id="C4BD6AC1-E32B-59B9-B265-5DE14B062C94">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 02:06:49 UTC</createdTime>
+<generatorID>49E7A432-6CB3-A40F-F440-D4C46BE1AD36</generatorID>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+<engineerTo>
+<item key="CC2360A8-1AE2-A2A1-F565-F65DD4FC817B" value="true"/>
+<item key="AA8B5020-EE8C-D5F6-50BF-6968976E05EA" value="true"/>
+</engineerTo>
+<sourcePk>20431A7B-17B1-0C84-5B9E-BD9E8093A0EE</sourcePk>
+<dominantRole>604D0F06-165F-BEB5-EADF-BFCE7404D33C</dominantRole>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>604D0F06-165F-BEB5-EADF-BFCE7404D33C</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>7DFEF145-D120-33CA-5D8B-10999B4A9FD0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

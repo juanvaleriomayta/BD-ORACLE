@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5D865BE7-9C00-4154-70C8-50F2DBE793BA" containerWithKeyObject="04BF7A89-5A4C-F4FC-9A78-6904D1E92E40" localFKIndex="8864ABB2-39D3-EF63-2499-9D3735DBC27A" name="vivienda_ubigeo_fk">
+<sourceDDLFile>TECNOFAST.ddl</sourceDDLFile>
+<createdBy>LC</createdBy>
+<createdTime>2018-12-02 15:49:28 UTC</createdTime>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+<importedID>4636F3A5-08BA-8BFA-27CA-4DDEC94E6F54</importedID>
+<referredTableLongName>ubigeo</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D63048E9-A9F5-F956-F481-48105EF0CBF5</referredTableID>
+<keyObject>487E7F98-57B7-CC74-9750-553C63C1C80D</keyObject>
+<referredKeyID>487E7F98-57B7-CC74-9750-553C63C1C80D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>codubi</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

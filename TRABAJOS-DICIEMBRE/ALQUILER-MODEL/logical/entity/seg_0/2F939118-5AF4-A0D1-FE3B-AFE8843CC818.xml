@@ -1,0 +1,168 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2F939118-5AF4-A0D1-FE3B-AFE8843CC818" name="VIVIENDA">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 02:06:49 UTC</createdTime>
+<generatorID>713B93BE-9AE6-99F1-C7BE-C1FB5B36C1FA</generatorID>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+<engineerTo>
+<item key="CC2360A8-1AE2-A2A1-F565-F65DD4FC817B" value="true"/>
+<item key="AA8B5020-EE8C-D5F6-50BF-6968976E05EA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CODVIV" id="FC4D8446-3BF2-AA2F-685F-69F069AC1492">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 02:06:49 UTC</createdTime>
+<commentInRDBMS>CODIGO VIVIENDA</commentInRDBMS>
+<generatorID>F9EE230E-1FE0-465B-7850-1CF120932AF4</generatorID>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+<engineerTo>
+<item key="CC2360A8-1AE2-A2A1-F565-F65DD4FC817B" value="true"/>
+<item key="AA8B5020-EE8C-D5F6-50BF-6968976E05EA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DESCVIV" id="697DCFAB-E5C3-C131-0446-94F667EF2F41">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 02:06:49 UTC</createdTime>
+<commentInRDBMS>DESCRIPCION VIVIENDA</commentInRDBMS>
+<generatorID>888B335E-2A7A-32AD-E7AB-EA2BBA384C33</generatorID>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+<engineerTo>
+<item key="CC2360A8-1AE2-A2A1-F565-F65DD4FC817B" value="true"/>
+<item key="AA8B5020-EE8C-D5F6-50BF-6968976E05EA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CANHABVIV" id="75B8A4CA-AB71-1E6E-237A-E7E4CEB98248">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 02:06:49 UTC</createdTime>
+<commentInRDBMS>CANTIDAD DE HABITANTES VIVENDA</commentInRDBMS>
+<generatorID>5A0E220F-F2DC-0E80-0EA4-8A41B5D36629</generatorID>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+<engineerTo>
+<item key="CC2360A8-1AE2-A2A1-F565-F65DD4FC817B" value="true"/>
+<item key="AA8B5020-EE8C-D5F6-50BF-6968976E05EA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DIRVIV" id="9E3D6C73-DEC5-6E47-73F3-12095E584FB3">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 02:06:49 UTC</createdTime>
+<commentInRDBMS>DIRECCION DE LA VIVIENDA</commentInRDBMS>
+<generatorID>8D410E9A-DB89-1666-1607-A26BDE471989</generatorID>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+<engineerTo>
+<item key="CC2360A8-1AE2-A2A1-F565-F65DD4FC817B" value="true"/>
+<item key="AA8B5020-EE8C-D5F6-50BF-6968976E05EA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FOTVIV" id="59821F4B-6813-1A3E-85B9-8A53FE1DA0C4">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 02:06:49 UTC</createdTime>
+<commentInRDBMS>FOTO DE LA VIVIENDA</commentInRDBMS>
+<generatorID>9279C2E1-B15C-6812-84B7-0DF8FA6D6BAC</generatorID>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+<engineerTo>
+<item key="CC2360A8-1AE2-A2A1-F565-F65DD4FC817B" value="true"/>
+<item key="AA8B5020-EE8C-D5F6-50BF-6968976E05EA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CODUBI" id="B4274E5F-5924-1E03-B95E-A65FDABDEE3D">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 02:41:56 UTC</createdTime>
+<generatorID>A572663E-67C6-4DED-B3D6-DE9D0247A602</generatorID>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+<engineerTo>
+<item key="CC2360A8-1AE2-A2A1-F565-F65DD4FC817B" value="true"/>
+<item key="AA8B5020-EE8C-D5F6-50BF-6968976E05EA" value="true"/>
+</engineerTo>
+<referedAttribute>9B4C722C-AFE7-5945-F9DE-5589D3F26214</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CODESTVIV" id="BB94ADFC-A863-DEE4-799C-6D5141536A01">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 02:48:19 UTC</createdTime>
+<generatorID>489E238B-AAA4-FD31-DD28-8B47309CD4ED</generatorID>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+<engineerTo>
+<item key="CC2360A8-1AE2-A2A1-F565-F65DD4FC817B" value="true"/>
+<item key="AA8B5020-EE8C-D5F6-50BF-6968976E05EA" value="true"/>
+</engineerTo>
+<referedAttribute>1CC47026-56D4-B1B9-2A5D-D6E646C376ED</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CODTIPVIV" id="167D0E46-EA3A-A390-E5AF-C8F232026CD0">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 02:48:28 UTC</createdTime>
+<generatorID>2A33C892-D28F-AFF9-DB6C-7686F7A3124D</generatorID>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+<engineerTo>
+<item key="CC2360A8-1AE2-A2A1-F565-F65DD4FC817B" value="true"/>
+<item key="AA8B5020-EE8C-D5F6-50BF-6968976E05EA" value="true"/>
+</engineerTo>
+<referedAttribute>9F008908-5AB0-2701-9AF7-87B6DFF2C471</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2F8123DD-B878-AB9F-9378-795920365C36" name="vivienda pk">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 02:06:49 UTC</createdTime>
+<generatorID>8C12CA22-1209-0049-C509-DD572EA4AA79</generatorID>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+<engineerTo>
+<item key="CC2360A8-1AE2-A2A1-F565-F65DD4FC817B" value="true"/>
+<item key="AA8B5020-EE8C-D5F6-50BF-6968976E05EA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FC4D8446-3BF2-AA2F-685F-69F069AC1492</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

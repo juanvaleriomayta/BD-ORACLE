@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="72A01536-BC7E-5B36-C470-E1D927B4AB08" name="UBIGEO">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 02:06:49 UTC</createdTime>
+<generatorID>1302BD63-1F94-9062-6214-18070A458D10</generatorID>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+<engineerTo>
+<item key="CC2360A8-1AE2-A2A1-F565-F65DD4FC817B" value="true"/>
+<item key="AA8B5020-EE8C-D5F6-50BF-6968976E05EA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CODUBI" id="9B4C722C-AFE7-5945-F9DE-5589D3F26214">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 02:06:49 UTC</createdTime>
+<commentInRDBMS>CODIGO UBIGEO</commentInRDBMS>
+<generatorID>50E512B9-787B-5171-AFB8-81077E6A90FE</generatorID>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+<engineerTo>
+<item key="CC2360A8-1AE2-A2A1-F565-F65DD4FC817B" value="true"/>
+<item key="AA8B5020-EE8C-D5F6-50BF-6968976E05EA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DISUBI" id="7A499C40-916C-8565-DC01-23D4AE20C5CE">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 02:06:49 UTC</createdTime>
+<commentInRDBMS>DISTRITO</commentInRDBMS>
+<generatorID>725C1C39-28B3-9866-5D47-C6C02ACC4FF1</generatorID>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+<engineerTo>
+<item key="CC2360A8-1AE2-A2A1-F565-F65DD4FC817B" value="true"/>
+<item key="AA8B5020-EE8C-D5F6-50BF-6968976E05EA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PROUBI" id="B6C577F4-6C16-09D2-08C1-C971CB555C83">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 02:06:49 UTC</createdTime>
+<commentInRDBMS>PROVINCIA</commentInRDBMS>
+<generatorID>D98C7A10-872D-56E9-2FD5-FB20A65F7EDC</generatorID>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+<engineerTo>
+<item key="CC2360A8-1AE2-A2A1-F565-F65DD4FC817B" value="true"/>
+<item key="AA8B5020-EE8C-D5F6-50BF-6968976E05EA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DEPUBI" id="008FC4DD-CB5E-8281-7A9B-5476B21CD0BB">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 02:06:49 UTC</createdTime>
+<commentInRDBMS>DEPARTAMENTO</commentInRDBMS>
+<generatorID>6EC6F582-7321-5D5B-1E45-8107E32F2D41</generatorID>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+<engineerTo>
+<item key="CC2360A8-1AE2-A2A1-F565-F65DD4FC817B" value="true"/>
+<item key="AA8B5020-EE8C-D5F6-50BF-6968976E05EA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CB46F25D-665E-66AE-8B05-1B229BD1F298" name="ubigeo pk">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 02:06:49 UTC</createdTime>
+<generatorID>527FEDA0-5069-694D-514C-B8C3373D233D</generatorID>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+<engineerTo>
+<item key="CC2360A8-1AE2-A2A1-F565-F65DD4FC817B" value="true"/>
+<item key="AA8B5020-EE8C-D5F6-50BF-6968976E05EA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9B4C722C-AFE7-5945-F9DE-5589D3F26214</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

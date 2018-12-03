@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="persona" directorySegmentName="seg_0" id="BBE3DE34-E750-2E19-B079-5EF0B69B10A9">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-02 15:49:28 UTC</createdTime>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="dirper" id="13119EA8-5EA8-A900-42FE-FD614C25BB87">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-02 15:49:28 UTC</createdTime>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ubigeo_codubi" id="2DEB4D8D-773D-4AAA-4EF9-2CDEAF4D46D7">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-02 15:49:28 UTC</createdTime>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="apepatper" id="2EE57C0A-CD77-1D34-BB7D-F7C47AD3F29B">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-02 15:49:28 UTC</createdTime>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="telef1per" id="3DA81AF1-D9A2-C896-BD0D-A0707F7A67BE">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-02 15:49:28 UTC</createdTime>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="emailper" id="4A9F3903-A0D8-3953-CF14-9D6A44CFD007">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-02 15:49:28 UTC</createdTime>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="estper" id="5622F213-011F-58CA-2DA0-78D178BA377F">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-02 15:49:28 UTC</createdTime>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="telef2per" id="68D078D8-D179-98F7-2D74-A98C03E20741">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-02 15:49:28 UTC</createdTime>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="passwper" id="6B7A1FB3-210E-B3F5-1C7B-1742CF7776C7">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-02 15:49:28 UTC</createdTime>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="usuarper" id="B9AC9EEC-1FC2-8271-224F-BD31DECBAAA1">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-02 15:49:28 UTC</createdTime>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="nomper" id="EC37D81D-6A70-F1FA-09DC-5D68CB86E1C3">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-02 15:49:28 UTC</createdTime>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="apematper" id="EFBC2323-E032-4CBC-784E-E36C469EE9B9">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-02 15:49:28 UTC</createdTime>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="codper" id="F7025928-844B-1AA1-8E98-9DE15C281C87">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-02 15:49:28 UTC</createdTime>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="dniper" id="FEB6D4EB-EB1C-4C71-8ECA-0720D7D79F7F">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-02 15:49:28 UTC</createdTime>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="persona_ubigeo_fk" id="3B64E917-7A0E-DF42-F150-78351F542E17">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-02 15:49:28 UTC</createdTime>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="PERSONA_UBIGEO_FKv3" id="6E19F2E6-2FEA-8E75-F972-8BD3F655C8EE">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-02 15:49:28 UTC</createdTime>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="persona_ubigeo_fkv2" id="769BEA30-088F-D071-9C43-54A867007294">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-02 15:49:28 UTC</createdTime>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="PERSONA_USUARIO_FK" id="EDC3A50C-ACE9-4629-015B-D89C27F7C76F">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-02 15:49:28 UTC</createdTime>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="persona_pk" id="4CDABA70-1A97-35AB-A3C9-8CEAD42580D8">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-02 15:49:28 UTC</createdTime>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

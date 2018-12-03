@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="75B283DB-741D-A681-E8F5-41F7692304BE" name="DETALLE_PROYECTO">
+<sourceDDLFile>TECNOFAST.ddl</sourceDDLFile>
+<createdBy>LC</createdBy>
+<createdTime>2018-12-02 15:49:28 UTC</createdTime>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+<importedID>8A53F97A-AD0F-0E40-57A4-D3220C6171D5</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODDETPRO" id="4B754304-01AB-A263-33B1-5F08F5262F16">
+<sourceDDLFile>TECNOFAST.ddl</sourceDDLFile>
+<createdBy>LC</createdBy>
+<createdTime>2018-12-02 15:49:28 UTC</createdTime>
+<commentInRDBMS>CODIGO DE DETALLE DEL PROYECTO</commentInRDBMS>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+<importedID>1622FBE0-BA22-506D-74EC-C0FE30670EC0</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>558ABA79-5717-F3C3-225A-FBE84DACE096</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HORDETPRO" id="33ABA37B-B0B7-CC14-E767-EC52F3B59826">
+<sourceDDLFile>TECNOFAST.ddl</sourceDDLFile>
+<createdBy>LC</createdBy>
+<createdTime>2018-12-02 15:49:28 UTC</createdTime>
+<commentInRDBMS>CANTIDAD DE HORAS DE TRABAJOS DEL PROYECTO</commentInRDBMS>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+<importedID>31339857-F650-B52C-3DAD-916B82B5E875</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>D9C3C339-27DB-6415-7FAA-0138E4D1C43A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODPRO" id="B5C2240D-7D87-3ABC-1BD4-F9601FF96108">
+<sourceDDLFile>TECNOFAST.ddl</sourceDDLFile>
+<createdBy>LC</createdBy>
+<createdTime>2018-12-02 15:49:28 UTC</createdTime>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+<importedID>E50DE277-54D1-2490-F560-A081387FB5A9</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>C2432082-EA55-9B96-D20B-D88772FF51F8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C878D5A4-C607-C0EC-BCD1-8A71CE550B9B" referredColumn="BB2A738D-355D-A31E-3C8A-FC4F7BD096C1"/>
+</associations>
+</Column>
+<Column name="CODRES" id="A24D5627-204C-F3FB-A37B-62C068351C72">
+<sourceDDLFile>TECNOFAST.ddl</sourceDDLFile>
+<createdBy>LC</createdBy>
+<createdTime>2018-12-02 15:49:28 UTC</createdTime>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+<importedID>D39FBF9F-1E77-3E23-5020-098944C046AC</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>C2432082-EA55-9B96-D20B-D88772FF51F8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C9415344-8173-144F-F297-430D780298A0" name="DETALLE_PROYECTO_PK">
+<sourceDDLFile>TECNOFAST.ddl</sourceDDLFile>
+<createdBy>LC</createdBy>
+<createdTime>2018-12-02 15:49:28 UTC</createdTime>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+<importedID>BC956EB8-1D43-4D5E-7A32-FF55D50877FF</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4B754304-01AB-A263-33B1-5F08F5262F16"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ABCA83C5-50C2-0E6E-A322-8A980BDEE436" name="DETALLE_PROYECTO_PK">
+<sourceDDLFile>TECNOFAST.ddl</sourceDDLFile>
+<createdBy>LC</createdBy>
+<createdTime>2018-12-02 15:49:28 UTC</createdTime>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+<importedID>6C2763C7-B68F-7E95-A650-5F796D0E67E8</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4B754304-01AB-A263-33B1-5F08F5262F16"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AD958FE1-920A-3573-BF15-5064037AB261" name="DETALLE_PROYECTO_PROYECTO_FK">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-02 15:49:28 UTC</createdTime>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B5C2240D-7D87-3ABC-1BD4-F9601FF96108"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

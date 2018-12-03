@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="66A4684A-378B-5A3E-B130-2F8E913F9983" name="DETALLE_FAMILIA">
+<sourceDDLFile>TECNOFAST.ddl</sourceDDLFile>
+<createdBy>LC</createdBy>
+<createdTime>2018-12-02 15:49:28 UTC</createdTime>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+<importedID>D1F13BB6-E097-379D-9597-11A1938A1904</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODDETFAM" id="BA4153F0-E4EA-350A-AF70-1B6285F449C9">
+<sourceDDLFile>TECNOFAST.ddl</sourceDDLFile>
+<createdBy>LC</createdBy>
+<createdTime>2018-12-02 15:49:28 UTC</createdTime>
+<commentInRDBMS>CODIGO DE DETALLE FAMILIAR</commentInRDBMS>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+<importedID>3193D4D3-96FB-C81B-8CEA-588CC59EA9F6</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>558ABA79-5717-F3C3-225A-FBE84DACE096</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PARDETFAM" id="DBE00ADC-01A4-90B6-4A7D-A572C541E8AF">
+<sourceDDLFile>TECNOFAST.ddl</sourceDDLFile>
+<createdBy>LC</createdBy>
+<createdTime>2018-12-02 15:49:28 UTC</createdTime>
+<commentInRDBMS>PARENTESCO DETALLE FAMILIAR</commentInRDBMS>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+<importedID>6E8EAA0F-1F22-6C2B-63F7-8CAEFB31550B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9B6DCE02-930C-2659-9634-061FD70C2BC0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODPER" id="4914C113-AD96-87CF-E2A4-BF128002F5C4">
+<sourceDDLFile>TECNOFAST.ddl</sourceDDLFile>
+<createdBy>LC</createdBy>
+<createdTime>2018-12-02 15:49:28 UTC</createdTime>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+<importedID>4181BF89-F6EA-6038-1470-1CC517E10E40</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>558ABA79-5717-F3C3-225A-FBE84DACE096</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6EA2A4A9-7BFD-D7C1-E162-8AB0993573B0" name="DETALLE_FAMILIA_PK">
+<sourceDDLFile>TECNOFAST.ddl</sourceDDLFile>
+<createdBy>LC</createdBy>
+<createdTime>2018-12-02 15:49:28 UTC</createdTime>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+<importedID>3A39855E-2D49-3F68-8C41-59DDC5636AC1</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BA4153F0-E4EA-350A-AF70-1B6285F449C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1622DBAD-7472-E4EB-2448-18324A4BF7C4" name="DETALLE_FAMILIA_PK">
+<sourceDDLFile>TECNOFAST.ddl</sourceDDLFile>
+<createdBy>LC</createdBy>
+<createdTime>2018-12-02 15:49:28 UTC</createdTime>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+<importedID>F56B9060-7794-0131-EFAA-9464FB38974E</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BA4153F0-E4EA-350A-AF70-1B6285F449C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,240 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="04BF7A89-5A4C-F4FC-9A78-6904D1E92E40" name="vivienda">
+<sourceDDLFile>Ejercicio1.sql</sourceDDLFile>
+<createdBy>LC</createdBy>
+<createdTime>2018-12-02 15:49:28 UTC</createdTime>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+<importedID>42E6A969-6E54-D57F-ACE7-4C0806874F42</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codviv" id="E7802260-1813-E122-995E-D105DD1549AB">
+<sourceDDLFile>Ejercicio1.sql</sourceDDLFile>
+<createdBy>LC</createdBy>
+<createdTime>2018-12-02 15:49:28 UTC</createdTime>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+<importedID>5F346E31-2883-8E1D-5D92-F4A10115B65B</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>CE39BFDE-89AA-3E34-08F8-0E5B4311A290</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descviv" id="416EAED6-69D6-7E50-E583-66850CE24AC4">
+<sourceDDLFile>Ejercicio1.sql</sourceDDLFile>
+<createdBy>LC</createdBy>
+<createdTime>2018-12-02 15:49:28 UTC</createdTime>
+<commentInRDBMS>Descripcion de la vivienda</commentInRDBMS>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+<importedID>EA7FFD9D-A2DF-1831-550D-B52288E8F05B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>1A08B8A4-0B39-EB5F-9E8F-B2C0BC95F65E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="canthabviv" id="8B318840-A4F6-173A-1C35-7852C371B563">
+<sourceDDLFile>Ejercicio1.sql</sourceDDLFile>
+<createdBy>LC</createdBy>
+<createdTime>2018-12-02 15:49:28 UTC</createdTime>
+<commentInRDBMS>Cantidad de habitantes en la vivienda</commentInRDBMS>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+<importedID>881A2C62-ECB0-6EE1-9BA4-612046DBE65F</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>CE39BFDE-89AA-3E34-08F8-0E5B4311A290</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dirviv" id="6FD84F10-8478-272D-AD2D-DAC48465AF37">
+<sourceDDLFile>Ejercicio1.sql</sourceDDLFile>
+<createdBy>LC</createdBy>
+<createdTime>2018-12-02 15:49:28 UTC</createdTime>
+<commentInRDBMS>Direccion de la vivienda</commentInRDBMS>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+<importedID>E543EABB-3ABB-EA0E-70E5-FBB867090F84</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>1A08B8A4-0B39-EB5F-9E8F-B2C0BC95F65E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fotoviv" id="5FF604FB-E7E7-8786-1866-CF8B0D736BBE">
+<sourceDDLFile>Ejercicio1.sql</sourceDDLFile>
+<createdBy>LC</createdBy>
+<createdTime>2018-12-02 15:49:28 UTC</createdTime>
+<commentInRDBMS>Foto de la vivienda</commentInRDBMS>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+<importedID>F1A0FEAA-89BB-9F5A-A62A-3713873A5147</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<domain>C9D92430-60BC-C7D3-62A6-F006D6FB5CA0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado_vivienda_codestviv" id="BB460B48-E00F-0271-652E-DE28F59B912D">
+<sourceDDLFile>Ejercicio1.sql</sourceDDLFile>
+<createdBy>LC</createdBy>
+<createdTime>2018-12-02 15:49:28 UTC</createdTime>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+<importedID>39C64CFD-2A2C-E103-7B8E-D73FC82040BC</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>CE39BFDE-89AA-3E34-08F8-0E5B4311A290</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="909792ED-8E10-C029-411B-2E11D28BBC70" referredColumn="F82C796E-0B42-2F22-5E02-86507356762B"/>
+<colAssociation fkAssociation="495A7F97-78A5-4D17-E70F-98A8497BAD79" referredColumn="F82C796E-0B42-2F22-5E02-86507356762B"/>
+</associations>
+</Column>
+<Column name="tipo_vivienda_codtipviv" id="F13672B5-FE29-AD1E-2859-97F9A9F09054">
+<sourceDDLFile>Ejercicio1.sql</sourceDDLFile>
+<createdBy>LC</createdBy>
+<createdTime>2018-12-02 15:49:28 UTC</createdTime>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+<importedID>DA36F85C-013E-1EA5-57C5-445391EDB1BD</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>CE39BFDE-89AA-3E34-08F8-0E5B4311A290</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="54F1B8BE-B964-F718-CD6E-BC6BD1993343" referredColumn="C276C8AD-DFF0-0920-1DD2-FB6A16B1A611"/>
+<colAssociation fkAssociation="AEEF69E3-59BC-1241-E406-D9EC9C805CC9" referredColumn="C276C8AD-DFF0-0920-1DD2-FB6A16B1A611"/>
+</associations>
+</Column>
+<Column name="ubigeo_codubi" id="718B5223-CA01-05FC-71CF-0FBC74FFAB64">
+<sourceDDLFile>Ejercicio1.sql</sourceDDLFile>
+<createdBy>LC</createdBy>
+<createdTime>2018-12-02 15:49:28 UTC</createdTime>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+<importedID>1F25EA26-6CC7-4778-F571-AB812D9E8C45</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>BA55F073-D186-C99E-4309-6F5693D56416</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5D865BE7-9C00-4154-70C8-50F2DBE793BA" referredColumn="B502C1B7-7289-B029-2C43-4012A1A1734D"/>
+<colAssociation fkAssociation="53CEAB8A-88E9-A280-175F-003B127A02DC" referredColumn="B502C1B7-7289-B029-2C43-4012A1A1734D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="65A79FEB-49CA-A743-B0BB-FEB70553F96C" name="vivienda_pk">
+<sourceDDLFile>Ejercicio1.sql</sourceDDLFile>
+<createdBy>LC</createdBy>
+<createdTime>2018-12-02 15:49:28 UTC</createdTime>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+<importedID>3C79BC24-822E-ED27-531D-BCB6130790BF</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E7802260-1813-E122-995E-D105DD1549AB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BB5F30EE-8F48-6709-072B-D0EFF84E1A64" name="vivienda__idx">
+<sourceDDLFile>Ejercicio1.sql</sourceDDLFile>
+<createdBy>LC</createdBy>
+<createdTime>2018-12-02 15:49:28 UTC</createdTime>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+<importedID>1A7075A2-A9B7-456F-E47B-9EE222FEE7A6</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BB460B48-E00F-0271-652E-DE28F59B912D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2C30B903-073C-D7AF-E2F3-581C8CA13645" name="vivienda__idxv1">
+<sourceDDLFile>Ejercicio1.sql</sourceDDLFile>
+<createdBy>LC</createdBy>
+<createdTime>2018-12-02 15:49:28 UTC</createdTime>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+<importedID>A76E8073-3EF1-0452-0C18-7FDC1B3FC476</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F13672B5-FE29-AD1E-2859-97F9A9F09054"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="71A04BF5-E248-9053-4464-39CECF55DFB7" name="vivienda__idxv2">
+<sourceDDLFile>Ejercicio1.sql</sourceDDLFile>
+<createdBy>LC</createdBy>
+<createdTime>2018-12-02 15:49:28 UTC</createdTime>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+<importedID>BA08A4FD-3398-EF6D-7816-1376B7BC6423</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="718B5223-CA01-05FC-71CF-0FBC74FFAB64"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0EAB06C9-056E-6692-1A22-400EA4E044BF" name="vivienda_estado_vivienda_fk">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-02 15:49:28 UTC</createdTime>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BB460B48-E00F-0271-652E-DE28F59B912D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="38379D72-E7AD-D394-52B8-19903AF2DB80" name="vivienda_estado_vivienda_fkv2">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-02 15:49:28 UTC</createdTime>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BB460B48-E00F-0271-652E-DE28F59B912D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9DECF723-0417-B88C-C08F-15B7F26BD458" name="vivienda_tipo_vivienda_fk">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-02 15:49:28 UTC</createdTime>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F13672B5-FE29-AD1E-2859-97F9A9F09054"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C9E5D198-8513-B69E-6B31-ADD0D77F1445" name="vivienda_tipo_vivienda_fkv2">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-02 15:49:28 UTC</createdTime>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F13672B5-FE29-AD1E-2859-97F9A9F09054"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8864ABB2-39D3-EF63-2499-9D3735DBC27A" name="vivienda_ubigeo_fk">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-02 15:49:28 UTC</createdTime>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="718B5223-CA01-05FC-71CF-0FBC74FFAB64"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2793E86F-C198-0FF5-1569-20FF2F3CDE40" name="vivienda_ubigeo_fkv2">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-02 15:49:28 UTC</createdTime>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="718B5223-CA01-05FC-71CF-0FBC74FFAB64"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

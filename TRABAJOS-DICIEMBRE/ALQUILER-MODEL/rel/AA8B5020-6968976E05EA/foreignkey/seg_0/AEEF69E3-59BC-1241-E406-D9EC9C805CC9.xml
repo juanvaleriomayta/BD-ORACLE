@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AEEF69E3-59BC-1241-E406-D9EC9C805CC9" containerWithKeyObject="04BF7A89-5A4C-F4FC-9A78-6904D1E92E40" localFKIndex="C9E5D198-8513-B69E-6B31-ADD0D77F1445" name="vivienda_tipo_vivienda_fkv2">
+<sourceDDLFile>TECNOFAST.ddl</sourceDDLFile>
+<createdBy>LC</createdBy>
+<createdTime>2018-12-02 15:49:28 UTC</createdTime>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+<importedID>BEACD677-7F26-B666-6871-61E963F5E01C</importedID>
+<referredTableLongName>tipo_vivienda</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>84A120CD-2B05-1B29-8D9C-92D986893E2A</referredTableID>
+<keyObject>8CC688CB-D8E7-F61F-E2B2-307D1F60B934</keyObject>
+<referredKeyID>8CC688CB-D8E7-F61F-E2B2-307D1F60B934</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>codtipviv</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
