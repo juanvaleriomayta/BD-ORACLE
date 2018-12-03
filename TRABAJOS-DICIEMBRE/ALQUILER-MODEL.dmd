@@ -1,0 +1,37 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="ALQUILER-MODEL" id="7793E3C0-1456-CB84-FB35-102872923C2A" version="3.5">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-02 15:38:55 UTC</createdTime>
+<ownerDesignName>ALQUILER-MODEL</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>7793E3C0-1456-CB84-FB35-102872923C2A</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="D533FE21-1F47-8A3B-575A-C00DDFDCB4C0">
+<designStoragePath>C:\Ejercicio1</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="91231955-CAD2-076D-B960-75CFD8001ABA">
+<designStoragePath>C:\Ejercicio1</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="06AE6A74-4C25-8DE6-1070-2E0D82AA1A74">
+<designStoragePath>C:\Ejercicio1</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="76DAC7C7-6A59-0B8F-BF9E-F2877E331C2B">
+<designStoragePath>C:\Ejercicio1</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="7EC90272-C85D-DEF7-4FC3-9432C1AD07EA">
+<designStoragePath>C:\TECNOFAST</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="DE0FB52F-04F6-62D8-2849-C8A465B7C92E">
+<designStoragePath>C:\Ejercicio1</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="40B2EEC8-88EE-3BB0-0417-68546CE4E71A">
+<designStoragePath>C:\TECNOFAST</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="D4043E6A-11C7-051A-711C-5DE6D66883A2">
+<designStoragePath>C:\TECNOFAST</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="FF29F055-1F09-6150-7C55-8209EEA30618">
+<designStoragePath>C:\ALQUILER-SCRIPT</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

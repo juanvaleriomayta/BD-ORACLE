@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="TECNOFAST-MODEL" id="AC37E389-577D-603E-ED66-89A8116492D0" version="3.5">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 03:08:13 UTC</createdTime>
+<ownerDesignName>TECNOFAST-MODEL</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>AC37E389-577D-603E-ED66-89A8116492D0</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="21D1008D-9D71-2495-6E1E-575E5CB0CE33">
+<designStoragePath>C:\TECNOFAST</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>
