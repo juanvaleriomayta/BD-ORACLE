@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="DETALLE_DEPARTAMENTO_CARGO_FK" directorySegmentName="seg_0" id="2E3673C7-97C9-20C4-6547-E7D1C53CD42E">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 03:08:47 UTC</createdTime>
+<generatorID>83996ECF-85CF-8DF1-5639-8AF1EAE6829D</generatorID>
+<ownerDesignName>TECNOFAST-MODEL</ownerDesignName>
+<engineerTo>
+<item key="4878B6F1-11D6-1C88-BABA-70ADDB0D8F6E" value="true"/>
+</engineerTo>
+<sourcePk>45C13BE4-2C68-3EA6-B9FC-E9D0E9EBA9CE</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>861E4D68-DB05-A607-0DA2-22C0FCDAB6DC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A0598867-A8D5-7F3E-6509-EFE6AAB2E346</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

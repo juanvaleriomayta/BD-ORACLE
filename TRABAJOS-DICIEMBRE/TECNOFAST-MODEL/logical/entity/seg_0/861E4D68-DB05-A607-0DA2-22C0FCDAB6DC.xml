@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="861E4D68-DB05-A607-0DA2-22C0FCDAB6DC" name="CARGO">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 03:08:47 UTC</createdTime>
+<generatorID>5ADFFBD0-A277-41BD-BBDF-C7C08914B454</generatorID>
+<ownerDesignName>TECNOFAST-MODEL</ownerDesignName>
+<engineerTo>
+<item key="4878B6F1-11D6-1C88-BABA-70ADDB0D8F6E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CODCAR" id="3290F2E5-C4DC-88BC-7D65-60D07474BBDE">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 03:08:47 UTC</createdTime>
+<commentInRDBMS>CODIGO DE CARGO</commentInRDBMS>
+<generatorID>FE882368-91BC-4F18-605E-9FDCBEED2E01</generatorID>
+<ownerDesignName>TECNOFAST-MODEL</ownerDesignName>
+<engineerTo>
+<item key="4878B6F1-11D6-1C88-BABA-70ADDB0D8F6E" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>9EE8DE17-B551-2EAC-18D9-521308F2458D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMCAR" id="B483E78A-C1F4-0F00-2C78-750C2F4A3030">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 03:08:47 UTC</createdTime>
+<commentInRDBMS>NOMBRE DE CARGO</commentInRDBMS>
+<generatorID>E0DC854E-B0D4-27A6-0CE8-0DA2CA8115CF</generatorID>
+<ownerDesignName>TECNOFAST-MODEL</ownerDesignName>
+<engineerTo>
+<item key="4878B6F1-11D6-1C88-BABA-70ADDB0D8F6E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>2F3CC09A-A9CB-4CEA-EB0D-30E762CD4620</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="45C13BE4-2C68-3EA6-B9FC-E9D0E9EBA9CE" name="CARGO PK">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 03:08:47 UTC</createdTime>
+<generatorID>DDC3A5B6-B130-4DB5-EB87-DC3650998B94</generatorID>
+<ownerDesignName>TECNOFAST-MODEL</ownerDesignName>
+<engineerTo>
+<item key="4878B6F1-11D6-1C88-BABA-70ADDB0D8F6E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3290F2E5-C4DC-88BC-7D65-60D07474BBDE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

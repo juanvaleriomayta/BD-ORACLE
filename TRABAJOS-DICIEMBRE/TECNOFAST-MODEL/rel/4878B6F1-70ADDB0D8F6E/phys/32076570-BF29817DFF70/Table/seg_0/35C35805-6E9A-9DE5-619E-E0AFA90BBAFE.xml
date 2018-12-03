@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="PERSONA" directorySegmentName="seg_0" id="35C35805-6E9A-9DE5-619E-E0AFA90BBAFE">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 03:13:28 UTC</createdTime>
+<ownerDesignName>TECNOFAST-MODEL</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CODUSU" id="257DABA0-0A9B-BCAB-DB07-4BC6870BEA63">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 03:13:28 UTC</createdTime>
+<ownerDesignName>TECNOFAST-MODEL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FECNACPER" id="41612371-47A5-EC88-FF21-7E4AF478DF9E">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 03:13:28 UTC</createdTime>
+<ownerDesignName>TECNOFAST-MODEL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DNIPER" id="74CE1ABA-9FB2-72FF-72B3-5D57C5CC786C">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 03:13:28 UTC</createdTime>
+<ownerDesignName>TECNOFAST-MODEL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODUBI" id="964208A1-EDCC-4A7E-A382-2674D5AEEEB7">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 03:13:28 UTC</createdTime>
+<ownerDesignName>TECNOFAST-MODEL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="APEMATPER" id="A3952077-324B-A295-D055-D118A60DADCD">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 03:13:28 UTC</createdTime>
+<ownerDesignName>TECNOFAST-MODEL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODPER" id="A71D2E9F-906E-197A-E03E-02BBD2B2A1FB">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 03:13:28 UTC</createdTime>
+<ownerDesignName>TECNOFAST-MODEL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DIRPER" id="DC9316FB-682E-B22B-3402-54177AEFB63F">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 03:13:28 UTC</createdTime>
+<ownerDesignName>TECNOFAST-MODEL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SEXPER" id="DE608C36-68B9-38CD-69BC-A72D2AE15913">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 03:13:28 UTC</createdTime>
+<ownerDesignName>TECNOFAST-MODEL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOMPER" id="E264B32A-4D7F-6CC1-5DBD-EE591D0BDC9D">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 03:13:28 UTC</createdTime>
+<ownerDesignName>TECNOFAST-MODEL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="APEPATPER" id="E2A18A3D-1C0C-EED0-FB94-00F6D6FACFBF">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 03:13:28 UTC</createdTime>
+<ownerDesignName>TECNOFAST-MODEL</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="PERSONA_USUARIO_FK" id="BF5B3364-E47B-84A6-CFF4-CB94B6E5E1E5">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 03:13:28 UTC</createdTime>
+<ownerDesignName>TECNOFAST-MODEL</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="PERSONA_UBIGEO_FK" id="DA6383F2-E714-B3E3-2107-F5D0C25CEE42">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 03:13:28 UTC</createdTime>
+<ownerDesignName>TECNOFAST-MODEL</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PERSONA_PK" id="46B3E27F-4F84-BEDE-F48B-7963440DA6DE">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 03:13:28 UTC</createdTime>
+<ownerDesignName>TECNOFAST-MODEL</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="72274C14-BF70-AB10-0796-EF227EEC4FC1" name="DETALLE PROYECTO">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 03:08:47 UTC</createdTime>
+<generatorID>E61470D6-B501-C557-4D4C-BFB0DC7F3EF0</generatorID>
+<ownerDesignName>TECNOFAST-MODEL</ownerDesignName>
+<engineerTo>
+<item key="4878B6F1-11D6-1C88-BABA-70ADDB0D8F6E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CODDETPRO" id="5C353BF8-FEEF-C95A-2A80-B45BA29D7870">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 03:08:47 UTC</createdTime>
+<commentInRDBMS>CODIGO DE DETALLE DEL PROYECTO</commentInRDBMS>
+<generatorID>1768C6E2-3D37-1793-19DA-B49C108E5FB7</generatorID>
+<ownerDesignName>TECNOFAST-MODEL</ownerDesignName>
+<engineerTo>
+<item key="4878B6F1-11D6-1C88-BABA-70ADDB0D8F6E" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>923FF463-5A19-D7B1-A087-4A65711396B4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="HORDETPRO" id="7E2CDB8D-403F-FC7F-8D8F-4682CA229EDD">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 03:08:47 UTC</createdTime>
+<commentInRDBMS>CANTIDAD DE HORAS DE TRABAJOS DEL PROYECTO</commentInRDBMS>
+<generatorID>F1CD4472-B36D-186A-0056-502661DC4630</generatorID>
+<ownerDesignName>TECNOFAST-MODEL</ownerDesignName>
+<engineerTo>
+<item key="4878B6F1-11D6-1C88-BABA-70ADDB0D8F6E" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>91CFE0DF-BB98-FA5E-4D49-A726480E3CDA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CODPRO" id="AE16778D-E9B8-1D74-9351-762B87B9504C">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 03:08:47 UTC</createdTime>
+<generatorID>8156BBCF-2ED9-6D32-9CE3-30E38B9851E4</generatorID>
+<ownerDesignName>TECNOFAST-MODEL</ownerDesignName>
+<engineerTo>
+<item key="4878B6F1-11D6-1C88-BABA-70ADDB0D8F6E" value="true"/>
+</engineerTo>
+<referedAttribute>DDADF099-7954-4230-7C3E-1B3C94F935B6</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>9EE8DE17-B551-2EAC-18D9-521308F2458D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CODRES" id="3B28D7CF-6123-67BD-62BF-8F2B0FC5CD93">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 03:08:47 UTC</createdTime>
+<generatorID>B2690B26-3F36-7C3A-819D-40116DFA60D2</generatorID>
+<ownerDesignName>TECNOFAST-MODEL</ownerDesignName>
+<engineerTo>
+<item key="4878B6F1-11D6-1C88-BABA-70ADDB0D8F6E" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>9EE8DE17-B551-2EAC-18D9-521308F2458D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CODRES1" id="4108C5C8-6C6A-ACAF-7794-567CA60C1A72">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 03:12:32 UTC</createdTime>
+<generatorID>80096AC1-BFD0-48C8-7EC7-0D7059187A54</generatorID>
+<ownerDesignName>TECNOFAST-MODEL</ownerDesignName>
+<engineerTo>
+<item key="4878B6F1-11D6-1C88-BABA-70ADDB0D8F6E" value="true"/>
+</engineerTo>
+<referedAttribute>B43A8BB2-AA0A-A9C8-5DE7-B9FCF3439F49</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>9EE8DE17-B551-2EAC-18D9-521308F2458D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B1A7B80F-1BB3-D70C-FE04-7D104DE8864A" name="DETALLE PROYECTO PK">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 03:08:47 UTC</createdTime>
+<generatorID>784FE00E-3D01-7AD2-D579-65B9AF8ADFE5</generatorID>
+<ownerDesignName>TECNOFAST-MODEL</ownerDesignName>
+<engineerTo>
+<item key="4878B6F1-11D6-1C88-BABA-70ADDB0D8F6E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5C353BF8-FEEF-C95A-2A80-B45BA29D7870</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

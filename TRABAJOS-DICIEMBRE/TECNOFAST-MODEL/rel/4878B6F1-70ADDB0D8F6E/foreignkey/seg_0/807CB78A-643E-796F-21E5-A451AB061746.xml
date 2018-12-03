@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="807CB78A-643E-796F-21E5-A451AB061746" containerWithKeyObject="C2466B57-F1A3-8A31-C291-F12D21C070E1" localFKIndex="DE984390-517A-EBB4-E3AA-8488F76D6A59" name="DETALLE_PROYECTO_RESPO_FK">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 03:22:35 UTC</createdTime>
+<generatorID>867017EA-5D96-00C6-0B2F-81EB7D494169</generatorID>
+<ownerDesignName>TECNOFAST-MODEL</ownerDesignName>
+<referredTableLongName>RESPONSABILIDAD</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E04097CA-E1F3-8CD2-D722-19736D50313B</referredTableID>
+<keyObject>9FE80987-A328-A908-589F-D5B4C17491DC</keyObject>
+<referredKeyID>9FE80987-A328-A908-589F-D5B4C17491DC</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODRES</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

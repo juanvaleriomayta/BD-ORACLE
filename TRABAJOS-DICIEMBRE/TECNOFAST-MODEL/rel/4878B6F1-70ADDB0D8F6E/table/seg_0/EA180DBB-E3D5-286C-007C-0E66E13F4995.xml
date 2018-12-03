@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EA180DBB-E3D5-286C-007C-0E66E13F4995" name="DETALLE_DEPARTAMENTO">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 03:13:28 UTC</createdTime>
+<generatorID>A0598867-A8D5-7F3E-6509-EFE6AAB2E346</generatorID>
+<ownerDesignName>TECNOFAST-MODEL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODDETDEP" id="CBC30A0B-DE87-5E42-99D1-13F829AB5A0A">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 03:13:28 UTC</createdTime>
+<commentInRDBMS>CODIGO DE DETALLE DEPARTAMENTO</commentInRDBMS>
+<generatorID>7D130B5B-FBB7-410A-748D-CC987940EDF6</generatorID>
+<ownerDesignName>TECNOFAST-MODEL</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>923FF463-5A19-D7B1-A087-4A65711396B4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECINDETDEP" id="B1990B27-9768-E5AD-6F61-80F3D642F06E">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 03:13:28 UTC</createdTime>
+<commentInRDBMS>FECHA DE INICIO DE DETALLE DEPARTAMENTO</commentInRDBMS>
+<generatorID>4A28E657-982E-229F-5B95-768802F3C681</generatorID>
+<ownerDesignName>TECNOFAST-MODEL</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>AD120C25-45EE-DCDA-B7D7-258E706C5D3B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SALDETDEP" id="840C6B51-DFE5-97DF-4235-9AA794A6425A">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 03:13:28 UTC</createdTime>
+<commentInRDBMS>SALARIO DEL DETALLE DEPARTAMENTO</commentInRDBMS>
+<generatorID>142BBC49-9194-12BF-238F-DE47C83A8C54</generatorID>
+<ownerDesignName>TECNOFAST-MODEL</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>6FE3BF26-7652-0634-461E-FE648D7E623A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SEGPER" id="B049444D-EA8D-07AA-63D0-BA846B2432CB">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 03:13:28 UTC</createdTime>
+<commentInRDBMS>SEGURO  DE LA PERSONA</commentInRDBMS>
+<generatorID>5194DB2A-5958-0E77-6418-BE84AF78B28E</generatorID>
+<ownerDesignName>TECNOFAST-MODEL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>2F3CC09A-A9CB-4CEA-EB0D-30E762CD4620</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODDEP" id="78E43A39-5427-20C2-A7D5-31762488DEF1">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 03:13:28 UTC</createdTime>
+<generatorID>E685D11A-4B82-7ABC-4931-24BDEA8B0DD6</generatorID>
+<ownerDesignName>TECNOFAST-MODEL</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>9EE8DE17-B551-2EAC-18D9-521308F2458D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODCAR" id="F336DABF-50CC-F05C-956C-11CD2BBB9DA9">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 03:13:28 UTC</createdTime>
+<generatorID>5B2B0CDA-E855-4B2F-BADF-3F5DFFB340D7</generatorID>
+<ownerDesignName>TECNOFAST-MODEL</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>9EE8DE17-B551-2EAC-18D9-521308F2458D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A2E1B3F0-462F-DEEA-BDDE-F562CE2D0553" referredColumn="1FE20273-3B53-7267-F360-3B2B3ABB38A1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3E0BF9CF-4EA1-C6A3-75F8-AFB384EB38CD" name="DETALLE_DEPARTAMENTO_PK">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 03:13:28 UTC</createdTime>
+<generatorID>0E56F9F0-2D87-9124-0B46-3E43056253E0</generatorID>
+<ownerDesignName>TECNOFAST-MODEL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CBC30A0B-DE87-5E42-99D1-13F829AB5A0A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="18B5128C-6776-3CC2-749E-B66B51FAB6AB" name="DETALLE_DEPARTAMENTO_CARGO_FK">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 03:13:28 UTC</createdTime>
+<generatorID>2E3673C7-97C9-20C4-6547-E7D1C53CD42E</generatorID>
+<ownerDesignName>TECNOFAST-MODEL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F336DABF-50CC-F05C-956C-11CD2BBB9DA9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

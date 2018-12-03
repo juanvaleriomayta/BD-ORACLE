@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0F5130C5-7228-B00A-FD7F-744EB787D5BA" name="USUARIO">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 03:08:47 UTC</createdTime>
+<generatorID>D7CBBEC2-09D6-4D38-7676-D9C0F9C0FE81</generatorID>
+<ownerDesignName>TECNOFAST-MODEL</ownerDesignName>
+<engineerTo>
+<item key="4878B6F1-11D6-1C88-BABA-70ADDB0D8F6E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CODUSU" id="E0ACD3DB-A6E1-33C1-1A39-110E07F718FD">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 03:08:47 UTC</createdTime>
+<commentInRDBMS>CODIGO DE USUARIO</commentInRDBMS>
+<generatorID>86CD58CA-1A66-06AC-FB27-CA0C640B1A6D</generatorID>
+<ownerDesignName>TECNOFAST-MODEL</ownerDesignName>
+<engineerTo>
+<item key="4878B6F1-11D6-1C88-BABA-70ADDB0D8F6E" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>9EE8DE17-B551-2EAC-18D9-521308F2458D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="USUUSU" id="70AB5993-4E76-FA60-4E80-90B52CF7FEBE">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 03:08:47 UTC</createdTime>
+<commentInRDBMS>USUARIO</commentInRDBMS>
+<generatorID>FB755132-CC3D-62DD-B40D-F771224C0B10</generatorID>
+<ownerDesignName>TECNOFAST-MODEL</ownerDesignName>
+<engineerTo>
+<item key="4878B6F1-11D6-1C88-BABA-70ADDB0D8F6E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>2F3CC09A-A9CB-4CEA-EB0D-30E762CD4620</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PASSUSU" id="C32B11A0-BD86-6B3E-1048-6468027C4EE9">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 03:08:47 UTC</createdTime>
+<commentInRDBMS>CONTRASEÃ‘A DEL USUARIO</commentInRDBMS>
+<generatorID>2EC0F35C-8756-E951-67B4-262E9F21A843</generatorID>
+<ownerDesignName>TECNOFAST-MODEL</ownerDesignName>
+<engineerTo>
+<item key="4878B6F1-11D6-1C88-BABA-70ADDB0D8F6E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>2F3CC09A-A9CB-4CEA-EB0D-30E762CD4620</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EE096675-29BB-7D1F-ADC3-DBD274598B1B" name="USUARIO PK">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 03:08:47 UTC</createdTime>
+<generatorID>07FA9634-4717-9305-FBDB-1E4D19600620</generatorID>
+<ownerDesignName>TECNOFAST-MODEL</ownerDesignName>
+<engineerTo>
+<item key="4878B6F1-11D6-1C88-BABA-70ADDB0D8F6E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E0ACD3DB-A6E1-33C1-1A39-110E07F718FD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

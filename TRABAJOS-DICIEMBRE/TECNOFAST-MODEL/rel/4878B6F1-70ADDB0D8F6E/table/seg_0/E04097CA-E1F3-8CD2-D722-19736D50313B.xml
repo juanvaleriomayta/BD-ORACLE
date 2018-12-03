@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E04097CA-E1F3-8CD2-D722-19736D50313B" name="RESPONSABILIDAD">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 03:13:28 UTC</createdTime>
+<generatorID>C5126254-2663-978D-CDAE-0278DC1F24A3</generatorID>
+<ownerDesignName>TECNOFAST-MODEL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODRES" id="5E0D8253-97B1-35C6-01F4-CFB7F75309B7">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 03:13:28 UTC</createdTime>
+<commentInRDBMS>CODIGO DE RESPONSABILIDAD</commentInRDBMS>
+<generatorID>B43A8BB2-AA0A-A9C8-5DE7-B9FCF3439F49</generatorID>
+<ownerDesignName>TECNOFAST-MODEL</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>9EE8DE17-B551-2EAC-18D9-521308F2458D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRES" id="36132BEA-16AD-6C6F-6372-21627680BF27">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 03:13:28 UTC</createdTime>
+<commentInRDBMS>DESCRIPCION DE RESPONSABILIDAD</commentInRDBMS>
+<generatorID>00988448-3403-71B9-634F-518C90B2A999</generatorID>
+<ownerDesignName>TECNOFAST-MODEL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>2F3CC09A-A9CB-4CEA-EB0D-30E762CD4620</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9FE80987-A328-A908-589F-D5B4C17491DC" name="RESPONSABILIDAD_PK">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 03:13:28 UTC</createdTime>
+<generatorID>867017EA-5D96-00C6-0B2F-81EB7D494169</generatorID>
+<ownerDesignName>TECNOFAST-MODEL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5E0D8253-97B1-35C6-01F4-CFB7F75309B7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

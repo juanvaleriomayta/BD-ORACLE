@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_8" directorySegmentName="seg_0" id="0597FFE8-5619-2B36-2567-734872113D4B">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 03:11:44 UTC</createdTime>
+<ownerDesignName>TECNOFAST-MODEL</ownerDesignName>
+<engineerTo>
+<item key="4878B6F1-11D6-1C88-BABA-70ADDB0D8F6E" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D091FC4D-FCC9-8B91-3F60-08FCE8E02F0F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F71C4BD7-093A-8DC7-3D5D-4B69FD34CB3C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

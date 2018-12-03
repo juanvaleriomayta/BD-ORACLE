@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="5A0746A4-CC16-C681-6D46-087E5A46AA89" mainViewID="A6662031-B815-DDD7-7594-FF019646E12D">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 03:08:13 UTC</createdTime>
+<ownerDesignName>TECNOFAST-MODEL</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

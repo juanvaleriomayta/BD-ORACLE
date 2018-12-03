@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="23AC4B7D-04B5-2C01-D8EA-8B078E534E26" name="PROYECTO">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 03:13:28 UTC</createdTime>
+<generatorID>E4A16958-16BF-7402-5513-95218A697857</generatorID>
+<ownerDesignName>TECNOFAST-MODEL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODPRO" id="9936092A-AC62-1E6A-DAA4-00C33C9E2E3F">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 03:13:28 UTC</createdTime>
+<commentInRDBMS>CODIGO DEL PROYECTO</commentInRDBMS>
+<generatorID>DDADF099-7954-4230-7C3E-1B3C94F935B6</generatorID>
+<ownerDesignName>TECNOFAST-MODEL</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>9EE8DE17-B551-2EAC-18D9-521308F2458D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMPRO" id="1D622349-5B58-28AE-3953-B17D6DB13028">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 03:13:28 UTC</createdTime>
+<commentInRDBMS>NOMBRE DEL PROYECTO</commentInRDBMS>
+<generatorID>6139218C-AFB0-A157-6B0C-A449A62BADEF</generatorID>
+<ownerDesignName>TECNOFAST-MODEL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E24A561D-A440-0E15-C942-8D4CE0DA7AC7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODUBI" id="C8996F66-F8E8-0C4C-D3BB-81F0B40DCFFE">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 03:13:28 UTC</createdTime>
+<generatorID>836B725D-67BC-3C45-3D8D-17DEDC71DB47</generatorID>
+<ownerDesignName>TECNOFAST-MODEL</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>9EE8DE17-B551-2EAC-18D9-521308F2458D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E216D5C3-A6A8-48DE-DE92-0FF046AEABF2" referredColumn="A2AF9E3A-1ED7-A267-E4BE-DC4D39AB18AC"/>
+</associations>
+</Column>
+<Column name="CODDEP" id="CA18CCF4-6B30-16A0-249D-D4538BE35459">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 03:13:28 UTC</createdTime>
+<generatorID>CB32004C-45C2-C351-60A7-8E4653FF64E3</generatorID>
+<ownerDesignName>TECNOFAST-MODEL</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>9EE8DE17-B551-2EAC-18D9-521308F2458D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="55D24AAF-353F-9420-BAC4-95E97362F158" referredColumn="98974C64-B9A8-66EC-CF79-FB6C947939F9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E8274604-2050-59B6-2FCC-EB15FC0A9519" name="PROYECTO_PK">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 03:13:28 UTC</createdTime>
+<generatorID>ABCC8F35-6A73-2D43-DE6C-12176A1E1FA3</generatorID>
+<ownerDesignName>TECNOFAST-MODEL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9936092A-AC62-1E6A-DAA4-00C33C9E2E3F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="042F5D26-1065-0FB6-40F3-DAC8A8F5A9CA" name="PROYECTO_DEPARTAMENTO_FK">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 03:13:28 UTC</createdTime>
+<generatorID>76D23B25-AEA0-9D3B-3D15-73B3494D57FB</generatorID>
+<ownerDesignName>TECNOFAST-MODEL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CA18CCF4-6B30-16A0-249D-D4538BE35459"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3937D2A0-ECBE-3FD0-F133-F893C4B59E46" name="PROYECTO_UBIGEO_FK">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 03:13:28 UTC</createdTime>
+<generatorID>8E724768-13A9-65F2-A1E5-EB6856EFDCCD</generatorID>
+<ownerDesignName>TECNOFAST-MODEL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C8996F66-F8E8-0C4C-D3BB-81F0B40DCFFE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

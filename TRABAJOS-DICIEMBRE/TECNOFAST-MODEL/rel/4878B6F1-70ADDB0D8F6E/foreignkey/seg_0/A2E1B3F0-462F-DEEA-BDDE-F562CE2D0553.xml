@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A2E1B3F0-462F-DEEA-BDDE-F562CE2D0553" containerWithKeyObject="EA180DBB-E3D5-286C-007C-0E66E13F4995" localFKIndex="18B5128C-6776-3CC2-749E-B66B51FAB6AB" name="DETALLE_DEPARTAMENTO_CARGO_FK">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 03:13:28 UTC</createdTime>
+<generatorID>2E3673C7-97C9-20C4-6547-E7D1C53CD42E</generatorID>
+<ownerDesignName>TECNOFAST-MODEL</ownerDesignName>
+<referredTableLongName>CARGO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>375A0ED6-C1CA-912A-E0B7-443CEDDAF4B3</referredTableID>
+<keyObject>C473B17A-0D4A-0DDD-615F-42D29B4B6E9A</keyObject>
+<referredKeyID>C473B17A-0D4A-0DDD-615F-42D29B4B6E9A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODCAR</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

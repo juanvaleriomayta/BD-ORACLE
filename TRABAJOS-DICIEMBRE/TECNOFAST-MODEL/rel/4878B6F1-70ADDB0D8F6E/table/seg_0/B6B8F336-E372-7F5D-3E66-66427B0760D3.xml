@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B6B8F336-E372-7F5D-3E66-66427B0760D3" name="USUARIO">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 03:13:28 UTC</createdTime>
+<generatorID>0F5130C5-7228-B00A-FD7F-744EB787D5BA</generatorID>
+<ownerDesignName>TECNOFAST-MODEL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODUSU" id="0A97AF0B-3D6C-5263-DE12-676ABEC02780">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 03:13:28 UTC</createdTime>
+<commentInRDBMS>CODIGO DE USUARIO</commentInRDBMS>
+<generatorID>E0ACD3DB-A6E1-33C1-1A39-110E07F718FD</generatorID>
+<ownerDesignName>TECNOFAST-MODEL</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>9EE8DE17-B551-2EAC-18D9-521308F2458D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USUUSU" id="7C3992FB-BA45-AEAF-4E8C-8E1A277FE832">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 03:13:28 UTC</createdTime>
+<commentInRDBMS>USUARIO</commentInRDBMS>
+<generatorID>70AB5993-4E76-FA60-4E80-90B52CF7FEBE</generatorID>
+<ownerDesignName>TECNOFAST-MODEL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>2F3CC09A-A9CB-4CEA-EB0D-30E762CD4620</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PASSUSU" id="724CF795-9135-2694-F5B9-912C372F8EAC">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 03:13:28 UTC</createdTime>
+<commentInRDBMS>CONTRASEÃ‘A DEL USUARIO</commentInRDBMS>
+<generatorID>C32B11A0-BD86-6B3E-1048-6468027C4EE9</generatorID>
+<ownerDesignName>TECNOFAST-MODEL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>2F3CC09A-A9CB-4CEA-EB0D-30E762CD4620</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A4B06031-9644-7E1B-77BE-E6B3CBDE4754" name="USUARIO_PK">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 03:13:28 UTC</createdTime>
+<generatorID>EE096675-29BB-7D1F-ADC3-DBD274598B1B</generatorID>
+<ownerDesignName>TECNOFAST-MODEL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0A97AF0B-3D6C-5263-DE12-676ABEC02780"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

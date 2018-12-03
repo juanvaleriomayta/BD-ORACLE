@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="DETALLE_PROYECTO" directorySegmentName="seg_0" id="C2466B57-F1A3-8A31-C291-F12D21C070E1">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 03:13:28 UTC</createdTime>
+<ownerDesignName>TECNOFAST-MODEL</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CODPER" id="336FA1C4-7425-4E12-134F-9F5EC33E15D6">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 03:15:06 UTC</createdTime>
+<ownerDesignName>TECNOFAST-MODEL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODPRO" id="87D1D3A8-A2FF-5F42-9DA5-EFD9B46FB7AD">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 03:13:28 UTC</createdTime>
+<ownerDesignName>TECNOFAST-MODEL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODDETPRO" id="AA2B6D24-2260-42F0-E6AD-AFE929782FD4">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 03:13:28 UTC</createdTime>
+<ownerDesignName>TECNOFAST-MODEL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODRES" id="D4A43484-1026-EF8D-9778-39B2047C2705">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 03:22:35 UTC</createdTime>
+<ownerDesignName>TECNOFAST-MODEL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="HORDETPRO" id="F134B56C-C1BF-A746-443D-3187821CB868">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 03:13:28 UTC</createdTime>
+<ownerDesignName>TECNOFAST-MODEL</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="DETALLE_PROYECTO_PERSONA_FK" id="07924E20-7CF5-E52D-0FED-BF13ECAC7362">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 03:13:28 UTC</createdTime>
+<ownerDesignName>TECNOFAST-MODEL</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="DETALLE_PROYECTO_PROYECTO_FK" id="1317F26C-4816-AB9F-CCEF-89806BB33CBA">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 03:13:28 UTC</createdTime>
+<ownerDesignName>TECNOFAST-MODEL</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="DETALLE_PROYECTO_RESPONSABILIDAD_FK" id="DE984390-517A-EBB4-E3AA-8488F76D6A59">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 03:22:35 UTC</createdTime>
+<ownerDesignName>TECNOFAST-MODEL</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="DETALLE_PROYECTO_PK" id="71A58795-6AF2-1F35-42D5-748D3A17DEA5">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 03:13:28 UTC</createdTime>
+<ownerDesignName>TECNOFAST-MODEL</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

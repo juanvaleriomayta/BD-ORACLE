@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A27C7325-4A1E-5DD3-CEEE-5B34B3A77024" name="UBIGEO">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 03:13:28 UTC</createdTime>
+<generatorID>E07906A1-88C1-A7E0-4376-DCB226460FA7</generatorID>
+<ownerDesignName>TECNOFAST-MODEL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODUBI" id="A2AF9E3A-1ED7-A267-E4BE-DC4D39AB18AC">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 03:13:28 UTC</createdTime>
+<commentInRDBMS>CODIGO DE UBIGEO</commentInRDBMS>
+<generatorID>B51E5E92-D13A-6E5F-7ED1-2E9E0F5B37B6</generatorID>
+<ownerDesignName>TECNOFAST-MODEL</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>9EE8DE17-B551-2EAC-18D9-521308F2458D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DISTUBI" id="CCEAD4CB-6F99-1148-8394-1F1E29F600AB">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 03:13:28 UTC</createdTime>
+<commentInRDBMS>DISTRITO</commentInRDBMS>
+<generatorID>45C4F268-A97A-91F0-E206-233E5581F817</generatorID>
+<ownerDesignName>TECNOFAST-MODEL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>2F3CC09A-A9CB-4CEA-EB0D-30E762CD4620</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROVUBI" id="21F30FF8-F190-4B31-4E94-B08F7757C119">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 03:13:28 UTC</createdTime>
+<commentInRDBMS>PROVINCIA</commentInRDBMS>
+<generatorID>F165A5F0-2E39-F4A5-DF56-BD78E3C4D9C2</generatorID>
+<ownerDesignName>TECNOFAST-MODEL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>2F3CC09A-A9CB-4CEA-EB0D-30E762CD4620</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEPTUBI" id="376E0B8F-D395-EA26-BD61-8AF598C13529">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 03:13:28 UTC</createdTime>
+<commentInRDBMS>DEPARTAMENTO</commentInRDBMS>
+<generatorID>E7337F69-F2CC-763F-2130-476BACCA0CE9</generatorID>
+<ownerDesignName>TECNOFAST-MODEL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>2F3CC09A-A9CB-4CEA-EB0D-30E762CD4620</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9E368574-F01F-43A9-9C99-B3DC1E63F2EC" name="UBIGEO_PK">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 03:13:28 UTC</createdTime>
+<generatorID>A962BB80-75B5-DDBA-2273-3AE1708F50B1</generatorID>
+<ownerDesignName>TECNOFAST-MODEL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A2AF9E3A-1ED7-A267-E4BE-DC4D39AB18AC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

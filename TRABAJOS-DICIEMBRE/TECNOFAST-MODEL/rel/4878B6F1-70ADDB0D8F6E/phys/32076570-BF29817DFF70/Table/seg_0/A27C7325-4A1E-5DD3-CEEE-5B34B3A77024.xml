@@ -1,0 +1,41 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="UBIGEO" directorySegmentName="seg_0" id="A27C7325-4A1E-5DD3-CEEE-5B34B3A77024">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 03:13:28 UTC</createdTime>
+<ownerDesignName>TECNOFAST-MODEL</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="PROVUBI" id="21F30FF8-F190-4B31-4E94-B08F7757C119">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 03:13:28 UTC</createdTime>
+<ownerDesignName>TECNOFAST-MODEL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DEPTUBI" id="376E0B8F-D395-EA26-BD61-8AF598C13529">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 03:13:28 UTC</createdTime>
+<ownerDesignName>TECNOFAST-MODEL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODUBI" id="A2AF9E3A-1ED7-A267-E4BE-DC4D39AB18AC">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 03:13:28 UTC</createdTime>
+<ownerDesignName>TECNOFAST-MODEL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DISTUBI" id="CCEAD4CB-6F99-1148-8394-1F1E29F600AB">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 03:13:28 UTC</createdTime>
+<ownerDesignName>TECNOFAST-MODEL</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="UBIGEO_PK" id="9E368574-F01F-43A9-9C99-B3DC1E63F2EC">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 03:13:28 UTC</createdTime>
+<ownerDesignName>TECNOFAST-MODEL</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

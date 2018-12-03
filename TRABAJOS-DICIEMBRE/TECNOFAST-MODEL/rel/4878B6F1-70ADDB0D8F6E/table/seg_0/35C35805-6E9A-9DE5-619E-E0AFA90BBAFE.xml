@@ -1,0 +1,179 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="35C35805-6E9A-9DE5-619E-E0AFA90BBAFE" name="PERSONA">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 03:13:28 UTC</createdTime>
+<generatorID>D091FC4D-FCC9-8B91-3F60-08FCE8E02F0F</generatorID>
+<ownerDesignName>TECNOFAST-MODEL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODPER" id="A71D2E9F-906E-197A-E03E-02BBD2B2A1FB">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 03:13:28 UTC</createdTime>
+<commentInRDBMS>CODIGO DE PERSONA</commentInRDBMS>
+<generatorID>857B3284-8A94-F505-3934-D4B104B6120C</generatorID>
+<ownerDesignName>TECNOFAST-MODEL</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>923FF463-5A19-D7B1-A087-4A65711396B4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMPER" id="E264B32A-4D7F-6CC1-5DBD-EE591D0BDC9D">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 03:13:28 UTC</createdTime>
+<commentInRDBMS>NOMBRE </commentInRDBMS>
+<generatorID>DC47455B-B939-59BD-E61E-83880DA94A28</generatorID>
+<ownerDesignName>TECNOFAST-MODEL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>2F3CC09A-A9CB-4CEA-EB0D-30E762CD4620</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APEPATPER" id="E2A18A3D-1C0C-EED0-FB94-00F6D6FACFBF">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 03:13:28 UTC</createdTime>
+<commentInRDBMS>APELLIDO PATERNO</commentInRDBMS>
+<generatorID>31038A4F-E9E0-6C3C-CD42-FED3193504CC</generatorID>
+<ownerDesignName>TECNOFAST-MODEL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>2F3CC09A-A9CB-4CEA-EB0D-30E762CD4620</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APEMATPER" id="A3952077-324B-A295-D055-D118A60DADCD">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 03:13:28 UTC</createdTime>
+<commentInRDBMS>APELLIDO MATERNO </commentInRDBMS>
+<generatorID>1FE47208-E2C2-07EF-79A7-D450DA41BBEF</generatorID>
+<ownerDesignName>TECNOFAST-MODEL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>2F3CC09A-A9CB-4CEA-EB0D-30E762CD4620</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECNACPER" id="41612371-47A5-EC88-FF21-7E4AF478DF9E">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 03:13:28 UTC</createdTime>
+<commentInRDBMS>FECHA DE NACIMIENTO</commentInRDBMS>
+<generatorID>70188568-06BC-81C1-A11D-18F5FABB5DCB</generatorID>
+<ownerDesignName>TECNOFAST-MODEL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>AD120C25-45EE-DCDA-B7D7-258E706C5D3B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DNIPER" id="74CE1ABA-9FB2-72FF-72B3-5D57C5CC786C">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 03:13:28 UTC</createdTime>
+<commentInRDBMS>NUMERO DE DNI</commentInRDBMS>
+<generatorID>7ECADBCE-4910-6C04-421B-601FE3970DF3</generatorID>
+<ownerDesignName>TECNOFAST-MODEL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>1B7900AE-2217-8BBD-E06B-5ACEBECA9651</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIRPER" id="DC9316FB-682E-B22B-3402-54177AEFB63F">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 03:13:28 UTC</createdTime>
+<commentInRDBMS>DIRECCION DE LA PERSONA</commentInRDBMS>
+<generatorID>A11FA411-9107-0177-DD31-44254C4A0967</generatorID>
+<ownerDesignName>TECNOFAST-MODEL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E24A561D-A440-0E15-C942-8D4CE0DA7AC7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SEXPER" id="DE608C36-68B9-38CD-69BC-A72D2AE15913">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 03:13:28 UTC</createdTime>
+<commentInRDBMS>SEXO </commentInRDBMS>
+<generatorID>E7ABDD6E-5230-B17B-FDCB-9D9CABD4D00E</generatorID>
+<ownerDesignName>TECNOFAST-MODEL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>903DCBD2-E7E8-5E32-88CA-22226E59065F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODUBI" id="964208A1-EDCC-4A7E-A382-2674D5AEEEB7">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 03:13:28 UTC</createdTime>
+<generatorID>B037977F-1398-4C19-0E45-F4CC8677CFC1</generatorID>
+<ownerDesignName>TECNOFAST-MODEL</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>9EE8DE17-B551-2EAC-18D9-521308F2458D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D15C708B-D2E6-ECC1-5C6D-A42465635BB4" referredColumn="A2AF9E3A-1ED7-A267-E4BE-DC4D39AB18AC"/>
+</associations>
+</Column>
+<Column name="CODUSU" id="257DABA0-0A9B-BCAB-DB07-4BC6870BEA63">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 03:13:28 UTC</createdTime>
+<generatorID>8F7E36E5-5732-5129-C7C6-A6B9F92215EC</generatorID>
+<ownerDesignName>TECNOFAST-MODEL</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>9EE8DE17-B551-2EAC-18D9-521308F2458D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="701A0F78-755D-A396-88DD-93A8FF14FD7C" referredColumn="0A97AF0B-3D6C-5263-DE12-676ABEC02780"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="46B3E27F-4F84-BEDE-F48B-7963440DA6DE" name="PERSONA_PK">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 03:13:28 UTC</createdTime>
+<ownerDesignName>TECNOFAST-MODEL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="A71D2E9F-906E-197A-E03E-02BBD2B2A1FB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DA6383F2-E714-B3E3-2107-F5D0C25CEE42" name="PERSONA_UBIGEO_FK">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 03:13:28 UTC</createdTime>
+<generatorID>6A7EFECB-244B-76B6-0190-9FC10C920481</generatorID>
+<ownerDesignName>TECNOFAST-MODEL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="964208A1-EDCC-4A7E-A382-2674D5AEEEB7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BF5B3364-E47B-84A6-CFF4-CB94B6E5E1E5" name="PERSONA_USUARIO_FK">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 03:13:28 UTC</createdTime>
+<generatorID>1EEFC339-C0F5-A24F-E30F-77461BFD0443</generatorID>
+<ownerDesignName>TECNOFAST-MODEL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="257DABA0-0A9B-BCAB-DB07-4BC6870BEA63"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

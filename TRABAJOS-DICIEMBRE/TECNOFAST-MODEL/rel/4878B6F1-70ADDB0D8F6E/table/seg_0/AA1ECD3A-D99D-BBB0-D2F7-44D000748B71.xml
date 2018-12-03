@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AA1ECD3A-D99D-BBB0-D2F7-44D000748B71" name="DEPARTAMENTO">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 03:13:28 UTC</createdTime>
+<generatorID>4A295C1A-938F-AB0E-403B-CFDFA627E5DE</generatorID>
+<ownerDesignName>TECNOFAST-MODEL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODDEP" id="98974C64-B9A8-66EC-CF79-FB6C947939F9">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 03:13:28 UTC</createdTime>
+<commentInRDBMS>CODIGO DE DEPARTAMENTO</commentInRDBMS>
+<generatorID>F1D682F0-8280-3B04-1619-47C1BC5AD142</generatorID>
+<ownerDesignName>TECNOFAST-MODEL</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>9EE8DE17-B551-2EAC-18D9-521308F2458D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMDEP" id="E47D0B1A-D5EA-EAF0-6DC1-B6987ABE6EE9">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 03:13:28 UTC</createdTime>
+<commentInRDBMS>NOMBRE DE DEPARTAMENTO</commentInRDBMS>
+<generatorID>F7193F92-F13F-BCB6-1DD8-67DFC129720E</generatorID>
+<ownerDesignName>TECNOFAST-MODEL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>2F3CC09A-A9CB-4CEA-EB0D-30E762CD4620</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODUBI" id="11B83E6C-93E3-245B-0D26-6462628A406C">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 03:13:28 UTC</createdTime>
+<generatorID>9825FE48-5013-E669-59FB-77318CDDBD78</generatorID>
+<ownerDesignName>TECNOFAST-MODEL</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>9EE8DE17-B551-2EAC-18D9-521308F2458D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AEDA907D-14A7-6DA6-3D22-814030218FE0" referredColumn="A2AF9E3A-1ED7-A267-E4BE-DC4D39AB18AC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5D8BAB6C-6110-2429-EAB3-21116CDCD4E3" name="DEPARTAMENTO_PK">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 03:13:28 UTC</createdTime>
+<generatorID>3C2144D1-EEA4-D4E4-D44D-D62CC41C83AC</generatorID>
+<ownerDesignName>TECNOFAST-MODEL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="98974C64-B9A8-66EC-CF79-FB6C947939F9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="93E1AF0C-F1FE-3CC2-5067-C417F3310B53" name="DEPARTAMENTO_UBIGEO_FK">
+<createdBy>LC</createdBy>
+<createdTime>2018-12-03 03:13:28 UTC</createdTime>
+<generatorID>6AC7DD84-DF37-EBF4-F1F4-B935162F9434</generatorID>
+<ownerDesignName>TECNOFAST-MODEL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="11B83E6C-93E3-245B-0D26-6462628A406C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
